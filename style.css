@@ -1,0 +1,31 @@
+
+
+label{
+    padding: 3px;
+}
+
+fieldset{
+    border-color: #98c2e9;
+}
+
+label{
+    font-family: "Anta", sans-serif;
+}
+
+legend{
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.box1:hover{
+    background-color:rgb(98, 236, 116);
+}
+.box2:hover{
+    background-color:red;
+}
+
+h3{
+    font-family: "Rock 3D", system-ui;
+}

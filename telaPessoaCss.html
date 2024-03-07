@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+3D&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Tela de Pessoa</title>
+</head>
+<body> 
+    <div style="border: 1px solid black; width: 800px; background-color: #d9edff; border-radius: 5px;">
+        <div style="background-color: #98c2e9; border: 1px solid black;">
+            <h3 style="margin: 1px;">Cadastro de Pessoas <span class="material-symbols-outlined">
+                settings_accessibility
+                </span></h3>
+        </div>
+            <fieldset>
+                <legend >Informações Básicas</legend>
+            <table>
+                <tr>
+                    <td style="width: 120px; text-align: right;">
+                        <label for="nome" style="color: red;">Nome</label>
+                    </td>
+                    <td>
+                        <input type="text" style="width: 590px;" >
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td style="width: 120px; text-align: right;">
+                        <label style="color: red;">Tipo</label>
+                        <td>
+                            <select style="width: 180px;">
+                                <option>Física</option>
+                                <option>Jurídica</option>
+                            </select>
+                        </td>
+                    </td>
+                    <td style="width: 120px; text-align: right;">
+                        <label style="color: red; padding-left: 141px;">CPF/CNPJ</label>
+                    </td>
+                    <td>
+                        <input type="number" style="width: 179px;">
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td style="width: 120px; text-align: right;">
+                        <label>Núm. Telefone</label>
+                    </td>
+                    <td>
+                        <input type="number" style="width: 172px;">
+                    </td>
+                </tr>
+            </table>
+            </fieldset>
+        <fieldset>
+                <legend>Endereço</legend>
+            <table>
+                <tr>
+                    <td style="width: 120px; text-align: right;">
+                        <label style="color: red;">Endereço</label>
+                    </td>
+                    <td>
+                        <input type="text" style="width: 590px;">
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td style="width: 120px; text-align: right;">
+                        <label style="color: red;">Número</label>
+                        <td>
+                            <input type="number" style="width: 100px;">
+                        </td>
+                    </td>
+                    <td style="width: 120px; text-align: right;">
+                        <label style="color: red;">CEP</label>
+                    </td>
+                    <td>
+                        <input type="number" style="width: 100px;">
+                    </td>
+                    <td style="width: 120px; text-align: right;">
+                        <label>UF</label>
+                    </td>
+                    <td>
+                        <input type="number" style=" width: 20px;">
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td style="width: 120px; text-align: right;">
+                        <label>Complemento</label>
+                    </td>
+                    <td>
+                        <input type="text" style="width: 590px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 120px; text-align: right;">
+                        <label style="color: red;">Cidade</label>
+                    </td>
+                    <td>
+                        <input type="text" style="width: 590px;">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <div style="background-color: #98c2e9;">
+            <table id="table">
+                <tr>
+                    <td>
+                        <button class="box1">Cadastrar</button>
+                    </td>
+                    <td>
+                        <button class="box2">Limpar</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
